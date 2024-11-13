@@ -1,4 +1,3 @@
-import React from 'react'
 import { Home } from './Pages'
 import { GlobalStyled } from './styles/globalStyles'
 import { ThemeProvider } from 'styled-components'

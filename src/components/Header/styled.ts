@@ -28,6 +28,8 @@ export const ContainerHeaderMenu = styled.header<HeaderProps>`
       display: block;
       color: ${({ theme }) => theme.colors['base-bg']};
     }
+
+    padding: 1rem 1.5rem;
   }
 `
 

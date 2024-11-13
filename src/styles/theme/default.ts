@@ -1,11 +1,15 @@
 export const DefaultThemes = {
   colors: {
     'base-bg': '#0C8FCE',
-    'base-secundary-bg': '#F9EC29',
+    'base-secundary-bg': '#92C958',
     'base-white': '#fff',
+    'base-white-100': '#fafafa',
     'base-text': '#000',
     'base-text-hover': '#F9EC29',
     'base-red': 'red',
+    'base-gray': '#3B3E46',
+    'base-gray-100': '#f3f3f3',
+    'base-gray-200': '#868686',
   },
   FontSizes: {
     'text-regular-sm': '0.875rem',
@@ -16,7 +20,7 @@ export const DefaultThemes = {
     'title-regular-sm': '0.875rem',
     'title-regular-s': '1.2rem',
     'title-regular-m': '1.5rem',
-    'title-regular-l': '2.1rem',
-    'title-regular-xl': '2.6rem',
+    'title-regular-l': 'min(2.1rem, 6vw)',
+    'title-regular-xl': 'min(2.8rem, 8vw)',
   },
 }

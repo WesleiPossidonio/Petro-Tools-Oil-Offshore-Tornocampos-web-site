@@ -1,11 +1,10 @@
 //Images
-import imgBannerOne from '../../assets/ImgOne.jpg'
-import imgBannerTwo from '../../assets/ImgTwo.jpg'
-import imgBannerThree from '../../assets/ImgThree.jpg'
+import imgBannerTwo from '../../assets/ImgTwo.webp'
+import imgBannerThree from '../../assets/ImgThree.webp'
 
 //Components
 import { ContainerMain, ContentSwiper, ContentText, ImgBanner } from './styled'
-import { TextRegular, TitleText } from '..'
+import { Button, TextRegular, TitleText } from '..'
 
 //Banner Swiper
 import { Swiper } from 'swiper/react'
@@ -29,7 +28,7 @@ export const Hero = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <ContentSwiper>
+        {/* <ContentSwiper>
           <ImgBanner src={imgBannerOne} alt="" />
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
@@ -41,19 +40,23 @@ export const Hero = () => {
               ao destino certo, com confiança e eficiência.
             </TextRegular>
           </ContentText>
-        </ContentSwiper>
+        </ContentSwiper> */}
 
         <ContentSwiper>
           <ImgBanner src={imgBannerTwo} alt="" />
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
             <TitleText color="white" size="xl">
-              Transporte Rápido, Seguro e com Total Confiabilidade!
+              Soluções em Usinagem e Caldeiraria para Projetos Exigentes
             </TitleText>
             <TextRegular color="white">
-              Oferecemos soluções logísticas completas para conectar seu negócio
-              ao destino certo, com confiança e eficiência.
+              Qualidade, precisão e compromisso para entregar resultados à
+              altura das suas expectativas.
             </TextRegular>
+
+            <Button btnLarge={false} bgColor="white">
+              Saiba Mais!
+            </Button>
           </ContentText>
         </ContentSwiper>
 
@@ -62,12 +65,16 @@ export const Hero = () => {
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
             <TitleText color="white" size="xl">
-              Transporte Rápido, Seguro e com Total Confiabilidade!
+              Experiência e Tecnologia a Serviço da Sua Necessidade!
             </TitleText>
             <TextRegular color="white">
-              Oferecemos soluções logísticas completas para conectar seu negócio
-              ao destino certo, com confiança e eficiência.
+              Peças e estruturas sob medida, feitas para durar e superar os
+              desafios do seu projeto.
             </TextRegular>
+
+            <Button btnLarge={false} bgColor="white">
+              Saiba Mais!
+            </Button>
           </ContentText>
         </ContentSwiper>
       </Swiper>

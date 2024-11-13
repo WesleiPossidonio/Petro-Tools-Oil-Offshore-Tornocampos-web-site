@@ -18,7 +18,7 @@ export const ContainerContact = styled.section`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 3.5rem 1.5rem;
   }
 `
 

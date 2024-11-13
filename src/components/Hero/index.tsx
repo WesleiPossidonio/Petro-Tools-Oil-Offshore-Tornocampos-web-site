@@ -1,5 +1,5 @@
 //Images
-import imgBannerTwo from '../../assets/ImgTwo.webp'
+import imgBannerTwo from '../../assets/ImgTwo.jpg'
 import imgBannerThree from '../../assets/ImgThree.webp'
 
 //Components

@@ -16,7 +16,7 @@ export const ContainerAbout = styled.section`
   @media (max-width: 850px) {
     flex-direction: column;
     gap: 4rem;
-    padding: 1.5rem;
+    padding: 3.5rem 1.5rem;
   }
 `
 

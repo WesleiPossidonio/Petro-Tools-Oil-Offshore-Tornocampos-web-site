@@ -34,7 +34,7 @@ export const ContainerLogo = styled.div`
   }
 `
 
-export const BoxIcon = styled.span`
+export const BoxIcon = styled.a`
   width: 3rem;
   height: 3rem;
 
@@ -45,10 +45,17 @@ export const BoxIcon = styled.span`
   justify-content: center;
   cursor: pointer;
 
+  color: ${({ theme }) => theme.colors['base-text']};
+
   box-shadow:
     rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   background-color: ${({ theme }) => theme.colors['base-gray-100']};
+
+  &:hover {
+    background-color: ${({ theme }) => theme.colors['base-bg']};
+    color: ${({ theme }) => theme.colors['base-white']};
+  }
 `
 
 export const ImageLogo = styled.img`
@@ -69,4 +76,12 @@ export const ContainerNavigate = styled.div`
 
 export const ContentLink = styled(ContainerNavigate)`
   gap: 0.5rem;
+
+  a {
+    color: ${({ theme }) => theme.colors['base-text']};
+
+    &:hover {
+      color: ${({ theme }) => theme.colors['base-bg']};
+    }
+  }
 `

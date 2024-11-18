@@ -103,6 +103,14 @@ export const ContentInfo = styled.div`
   align-items: center;
   justify-content: flex-start;
   gap: 0.9rem;
+
+  a {
+    color: ${({ theme }) => theme.colors['base-text']};
+
+    &:hover {
+      color: ${({ theme }) => theme.colors['base-bg']};
+    }
+  }
 `
 
 export const BoxIcon = styled.span`
@@ -117,6 +125,18 @@ export const BoxIcon = styled.span`
 
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   background-color: ${({ theme }) => theme.colors['base-gray-100']};
+
+  svg {
+    color: ${({ theme }) => theme.colors['base-text']};
+  }
+
+  &:hover {
+    background-color: ${({ theme }) => theme.colors['base-bg']};
+
+    svg {
+      color: ${({ theme }) => theme.colors['base-white']};
+    }
+  }
 
   @media (max-width: 500px) {
     width: 4rem;

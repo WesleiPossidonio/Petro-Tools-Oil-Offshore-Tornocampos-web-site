@@ -13,7 +13,7 @@ import { Button } from '../Button'
 
 export const ContactSection = () => {
   return (
-    <ContainerContact>
+    <ContainerContact id="contact">
       <Form>
         <Input placeholder="Nome:" />
         <Input placeholder="E-Mail:" />
@@ -38,33 +38,45 @@ export const ContactSection = () => {
 
         <ContentInfo>
           <BoxIcon>
-            <PhoneCall size={40} color="#0C8FCE" />
+            <PhoneCall size={40} />
           </BoxIcon>
           <div>
             <TitleText size="s">Telefone</TitleText>
-            <TextRegular size="sm">(22) 2765-1377</TextRegular>
+            <TextRegular size="sm">
+              <a href="tel:+55222765-1377">(22) 2765-1377</a>{' '}
+            </TextRegular>
           </div>
         </ContentInfo>
 
         <ContentInfo>
           <BoxIcon>
-            <EnvelopeOpen size={40} color="#0C8FCE" />
+            <EnvelopeOpen size={40} />
           </BoxIcon>
           <div>
             <TitleText size="s">Email:</TitleText>
-            <TextRegular size="sm">petro@petrotoolsoffshore.com.br</TextRegular>
+            <TextRegular size="sm">
+              <a href="mailto:petro@petrotoolsoffshore.com.br">
+                petro@petrotoolsoffshore.com.br
+              </a>{' '}
+            </TextRegular>
           </div>
         </ContentInfo>
 
         <ContentInfo>
           <BoxIcon>
-            <MapPinLine size={40} color="#0C8FCE" />
+            <MapPinLine size={40} />
           </BoxIcon>
           <div>
             <TitleText size="s">Endereço:</TitleText>
             <TextRegular size="sm">
-              Av. Pres. Kennedy, 996/1000 - Vila da Rainha, <br /> Campos dos
-              Goytacazes - RJ, 28020-010
+              {' '}
+              <a
+                href="https://maps.app.goo.gl/FvcfEvQVrKsUwKV28"
+                target="_blank"
+              >
+                Av. Pres. Kennedy, 996/1000 - Vila da Rainha, <br /> Campos dos
+                Goytacazes - RJ, 28020-010
+              </a>
             </TextRegular>
           </div>
         </ContentInfo>

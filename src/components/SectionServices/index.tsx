@@ -27,7 +27,7 @@ interface SectionServicesProps {
 
 export const SectionServices = ({ listServices }: SectionServicesProps) => {
   return (
-    <ContainerSertvices>
+    <ContainerSertvices id="services">
       <ContentText>
         <TitleText size="l" color="text">
           Excelência em Usinagem e Caldeiraria <br /> Sob Medida
@@ -39,7 +39,12 @@ export const SectionServices = ({ listServices }: SectionServicesProps) => {
         </TextRegular>
 
         <Button btnLarge bgColor="bg">
-          Saiba Mais!
+          <a
+            href="https://api.whatsapp.com/send/?phone=5522997657098&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            Saiba Mais!
+          </a>
         </Button>
       </ContentText>
 

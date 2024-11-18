@@ -20,7 +20,11 @@ export const Footer = () => {
           Petro Tools Oil Offshore/Tornocampos <br /> © 2024 - Todos os
           direitos reservados.
         </TextRegular>
-        <BoxIcon>
+
+        <BoxIcon
+          href="https://www.instagram.com/tornocamposoffshore/"
+          target="_blank"
+        >
           <InstagramLogo size={32} />
         </BoxIcon>
       </ContainerLogo>
@@ -28,10 +32,22 @@ export const Footer = () => {
       <ContainerNavigate>
         <TitleText size="s">Navegação</TitleText>
         <ContentLink>
-          <TextRegular>Home</TextRegular>
-          <TextRegular>Sobre Nós</TextRegular>
-          <TextRegular>Serviços</TextRegular>
-          <TextRegular>Contatos</TextRegular>
+          <TextRegular>
+            {' '}
+            <a href="#home">Home</a>
+          </TextRegular>
+          <TextRegular>
+            {' '}
+            <a href="#about">Sobre Nós</a>
+          </TextRegular>
+          <TextRegular>
+            {' '}
+            <a href="#services">Serviços</a>
+          </TextRegular>
+          <TextRegular>
+            {' '}
+            <a href="#contact">Contatos</a>
+          </TextRegular>
         </ContentLink>
       </ContainerNavigate>
 
@@ -39,15 +55,22 @@ export const Footer = () => {
         <TitleText size="s">Contatos</TitleText>
         <ContentLink>
           <TextRegular>
-            <strong>Tel:</strong> (22) 2765-1377
+            <strong>Tel:</strong>{' '}
+            <a href="tel:+55222765-1377">(22) 2765-1377</a>
           </TextRegular>
           <TextRegular>
             {' '}
-            <strong>Email:</strong> petro@petrotoolsoffshore.com.br
+            <strong>Email:</strong>{' '}
+            <a href="mailto:petro@petrotoolsoffshore.com.br">
+              petro@petrotoolsoffshore.com.br
+            </a>
           </TextRegular>
           <TextRegular>
-            <strong>Endereço:</strong> Av. Pres. Kennedy, 996/1000 - Vila da
-            Rainha, <br /> Campos dos Goytacazes - RJ, 28020-010
+            <strong>Endereço:</strong>{' '}
+            <a href="https://maps.app.goo.gl/FvcfEvQVrKsUwKV28" target="_blank">
+              Av. Pres. Kennedy, 996/1000 - Vila da Rainha, <br /> Campos dos
+              Goytacazes - RJ, 28020-010
+            </a>
           </TextRegular>
         </ContentLink>
       </ContainerNavigate>

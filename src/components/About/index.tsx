@@ -20,7 +20,7 @@ export const About = () => {
   }, [])
 
   return (
-    <ContainerAbout>
+    <ContainerAbout id="about">
       <ContainerText data-aos="fade-right" data-aos-duration="1000">
         <TextRegular size="s" color="bg" weight={700}>
           - Sobre Nós
@@ -61,7 +61,12 @@ export const About = () => {
         </ContentText>
 
         <Button btnLarge={false} bgColor="bg">
-          Saiba Mais!
+          <a
+            href="https://api.whatsapp.com/send/?phone=5522997657098&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            Saiba Mais!
+          </a>
         </Button>
       </ContainerText>
 

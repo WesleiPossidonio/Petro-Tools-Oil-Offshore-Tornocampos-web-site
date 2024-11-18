@@ -13,7 +13,10 @@ export const ContainerButton = styled.button<ButtonProps>`
   border: none;
   border-radius: 8px;
 
-  font-size: ${({ theme }) => theme.FontSizes['text-regular-m']};
+  font-size: ${({ theme, btnLarge }) =>
+    btnLarge
+      ? theme.FontSizes['text-regular-m']
+      : theme.FontSizes['text-regular-s']};
   font-weight: 500;
   color: ${({ theme, bgColor }) =>
     bgColor === 'white'

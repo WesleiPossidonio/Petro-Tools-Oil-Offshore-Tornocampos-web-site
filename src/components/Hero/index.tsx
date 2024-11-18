@@ -55,7 +55,12 @@ export const Hero = () => {
             </TextRegular>
 
             <Button btnLarge={false} bgColor="white">
-              Saiba Mais!
+              <a
+                href="https://api.whatsapp.com/send/?phone=5522997657098&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                Solicitar Serviço!
+              </a>
             </Button>
           </ContentText>
         </ContentSwiper>
@@ -73,7 +78,12 @@ export const Hero = () => {
             </TextRegular>
 
             <Button btnLarge={false} bgColor="white">
-              Saiba Mais!
+              <a
+                href="https://api.whatsapp.com/send/?phone=5522997657098&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                Solicitar Serviço!
+              </a>
             </Button>
           </ContentText>
         </ContentSwiper>

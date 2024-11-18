@@ -5,6 +5,7 @@ import {
   Footer,
   Header,
   Hero,
+  Mission,
   SectionImage,
   SectionServices,
 } from '../../components'
@@ -17,6 +18,7 @@ export const Home = () => {
       <Header />
       <Hero />
       <About />
+      <Mission />
       <CallAction />
       <SectionServices listServices={listServices} />
       <SectionImage />

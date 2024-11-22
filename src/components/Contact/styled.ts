@@ -26,7 +26,8 @@ export const ContentContact = styled.div``
 
 export const Form = styled.form`
   width: 50%;
-  height: 32rem;
+  height: 35rem;
+  min-height: max-content;
 
   padding: 1.5rem;
 
@@ -43,9 +44,18 @@ export const Form = styled.form`
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   background-color: ${({ theme }) => theme.colors['base-gray-100']};
 
+  #reCaptcha {
+    align-self: flex-start;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     order: 2;
+
+    #reCaptcha {
+      transform: scale(0.7); /* Reduz o tamanho para 80% */
+      transform-origin: 0 0; /* Ajusta o ponto de origem da escala */
+    }
   }
 `
 

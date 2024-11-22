@@ -93,7 +93,7 @@ export const ContactSection = () => {
       <Form
         onSubmit={handleSubmit(handleSendEmail)}
         data-aos="zoom-in"
-        data-aos-duration="1000"
+        data-aos-duration="600"
       >
         <Input
           placeholder="Nome:"
@@ -135,7 +135,7 @@ export const ContactSection = () => {
         </Button>
       </Form>
 
-      <ContentText data-aos="fade-left" data-aos-duration="1000">
+      <ContentText data-aos="fade-left" data-aos-duration="600">
         <TitleText size="s" color="bg">
           - Contatos
         </TitleText>

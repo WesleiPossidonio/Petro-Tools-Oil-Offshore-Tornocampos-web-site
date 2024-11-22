@@ -23,7 +23,7 @@ export const About = () => {
 
   return (
     <ContainerAbout id="about">
-      <ContainerText data-aos="fade-right" data-aos-duration="1000">
+      <ContainerText data-aos="fade-right" data-aos-duration="600">
         <TextRegular size="s" color="bg" weight={700}>
           - Sobre Nós
         </TextRegular>
@@ -72,7 +72,7 @@ export const About = () => {
         </Button>
       </ContainerText>
 
-      <ContainerImage data-aos="fade-left" data-aos-duration="1000">
+      <ContainerImage data-aos="fade-left" data-aos-duration="600">
         <Image src={ImageAbout} />
 
         <ContainerOurValues>

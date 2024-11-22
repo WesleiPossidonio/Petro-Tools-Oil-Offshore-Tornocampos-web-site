@@ -36,53 +36,38 @@ export const SectionImage = () => {
       </ContentText>
 
       <ContentImages>
-        <Image
-          src={ImgOne}
-          alt=""
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-        />
-        <Image
-          src={ImgTwo}
-          alt=""
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-        />
+        <Image src={ImgOne} alt="" data-aos="zoom-in" data-aos-duration="600" />
+        <Image src={ImgTwo} alt="" data-aos="zoom-in" data-aos-duration="600" />
         <Image
           src={ImgThree}
           alt=""
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         />
         <Image
           src={ImgFour}
           alt=""
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         />
         <Image
           src={ImgFive}
           alt=""
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         />
-        <Image
-          src={ImgSix}
-          alt=""
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-        />
+        <Image src={ImgSix} alt="" data-aos="zoom-in" data-aos-duration="600" />
         <Image
           src={ImgSeven}
           alt=""
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         />
         <Image
           src={Imgeight}
           alt=""
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         />
       </ContentImages>
     </ContainerSectionImage>

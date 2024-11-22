@@ -6,7 +6,7 @@ import { toast } from 'react-toastify'
 import api from '../../services/api'
 
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 import { EnvelopeOpen, MapPinLine, PhoneCall } from '@phosphor-icons/react'
 import { Input } from '../Input'

@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { TextRegular, TitleText } from '../typograph'
 
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 import {
   ContainerSectionImage,

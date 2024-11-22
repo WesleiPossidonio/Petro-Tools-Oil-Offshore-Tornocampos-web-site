@@ -4,7 +4,7 @@ import { TextRegular, TitleText } from '../typograph'
 import { CardPrincipies, ContainerMission, ContainerTextCard } from './styled'
 
 import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 export const Mission = () => {
   useEffect(() => {

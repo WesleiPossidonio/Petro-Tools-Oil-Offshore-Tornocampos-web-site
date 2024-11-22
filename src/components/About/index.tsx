@@ -14,6 +14,7 @@ import {
 import { useEffect } from 'react'
 
 import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export const About = () => {
   useEffect(() => {
@@ -22,7 +23,7 @@ export const About = () => {
 
   return (
     <ContainerAbout id="about">
-      <ContainerText data-aos="fade-up">
+      <ContainerText data-aos="fade-right" data-aos-duration="1000">
         <TextRegular size="s" color="bg" weight={700}>
           - Sobre Nós
         </TextRegular>
@@ -71,7 +72,7 @@ export const About = () => {
         </Button>
       </ContainerText>
 
-      <ContainerImage>
+      <ContainerImage data-aos="fade-left" data-aos-duration="1000">
         <Image src={ImageAbout} />
 
         <ContainerOurValues>

@@ -1,4 +1,9 @@
+import { useEffect } from 'react'
 import { TextRegular, TitleText } from '../typograph'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import {
   ContainerSectionImage,
   ContentImages,
@@ -16,6 +21,10 @@ import ImgSeven from '../../assets/ImgService7.webp'
 import Imgeight from '../../assets/ImgService8.webp'
 
 export const SectionImage = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <ContainerSectionImage>
       <ContentText>
@@ -27,14 +36,54 @@ export const SectionImage = () => {
       </ContentText>
 
       <ContentImages>
-        <Image src={ImgOne} alt="" />
-        <Image src={ImgTwo} alt="" />
-        <Image src={ImgThree} alt="" />
-        <Image src={ImgFour} alt="" />
-        <Image src={ImgFive} alt="" />
-        <Image src={ImgSix} alt="" />
-        <Image src={ImgSeven} alt="" />
-        <Image src={Imgeight} alt="" />
+        <Image
+          src={ImgOne}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={ImgTwo}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={ImgThree}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={ImgFour}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={ImgFive}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={ImgSix}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={ImgSeven}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
+        <Image
+          src={Imgeight}
+          alt=""
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        />
       </ContentImages>
     </ContainerSectionImage>
   )

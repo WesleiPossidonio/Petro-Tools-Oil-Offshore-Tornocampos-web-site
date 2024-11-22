@@ -1,11 +1,19 @@
+import { useEffect } from 'react'
 import { DiamondsFour, Lightbulb, RocketLaunch } from '@phosphor-icons/react'
 import { TextRegular, TitleText } from '../typograph'
 import { CardPrincipies, ContainerMission, ContainerTextCard } from './styled'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 export const Mission = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <ContainerMission>
-      <CardPrincipies>
+      <CardPrincipies data-aos="fade-right" data-aos-duration="800">
         <Lightbulb size={55} />
         <ContainerTextCard>
           <TitleText size="m" color="bg">
@@ -20,7 +28,7 @@ export const Mission = () => {
         </ContainerTextCard>
       </CardPrincipies>
 
-      <CardPrincipies>
+      <CardPrincipies data-aos="fade-up" data-aos-duration="900">
         <RocketLaunch size={55} />
         <ContainerTextCard>
           <TitleText size="m" color="bg">
@@ -34,7 +42,7 @@ export const Mission = () => {
         </ContainerTextCard>
       </CardPrincipies>
 
-      <CardPrincipies>
+      <CardPrincipies data-aos="fade-left" data-aos-duration="1000">
         <DiamondsFour size={55} />
         <ContainerTextCard>
           <TitleText size="m" color="bg">

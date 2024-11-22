@@ -5,11 +5,14 @@ import { useForm } from 'react-hook-form'
 import { toast } from 'react-toastify'
 import api from '../../services/api'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import { EnvelopeOpen, MapPinLine, PhoneCall } from '@phosphor-icons/react'
 import { Input } from '../Input'
 import { TextRegular, TitleText } from '../typograph'
 import { Button } from '../Button'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import {
   BoxIcon,
@@ -44,6 +47,10 @@ export const ContactSection = () => {
   } = useForm<createSendEmailFormInputs>({
     resolver: zodResolver(sendEmailFormSchema),
   })
+
+  useEffect(() => {
+    Aos.init()
+  }, [])
 
   const handleSendEmail = async (data: createSendEmailFormInputs) => {
     const { email, name, phone, subject_text, subject_title } = data
@@ -83,7 +90,11 @@ export const ContactSection = () => {
 
   return (
     <ContainerContact id="contact">
-      <Form onSubmit={handleSubmit(handleSendEmail)}>
+      <Form
+        onSubmit={handleSubmit(handleSendEmail)}
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
         <Input
           placeholder="Nome:"
           {...register('name')}
@@ -124,7 +135,7 @@ export const ContactSection = () => {
         </Button>
       </Form>
 
-      <ContentText>
+      <ContentText data-aos="fade-left" data-aos-duration="1000">
         <TitleText size="s" color="bg">
           - Contatos
         </TitleText>

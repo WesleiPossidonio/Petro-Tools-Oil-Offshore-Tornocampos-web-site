@@ -1,10 +1,8 @@
-import { useEffect } from 'react'
 import CountUp from 'react-countup'
-import AOS from 'aos'
 
 import { Button } from '../Button'
 import { TextRegular, TitleText } from '../typograph'
-import ImageAbout from '../../assets/ImageAbout1.webp'
+import ImageAbout from '../../assets/ImageAbout1.jpg'
 import {
   ContainerAbout,
   ContainerImage,
@@ -13,15 +11,18 @@ import {
   ContentText,
   Image,
 } from './styled'
+import { useEffect } from 'react'
+
+import Aos from 'aos'
 
 export const About = () => {
   useEffect(() => {
-    AOS.init()
+    Aos.init()
   }, [])
 
   return (
     <ContainerAbout id="about">
-      <ContainerText data-aos="fade-right" data-aos-duration="1000">
+      <ContainerText data-aos="fade-up">
         <TextRegular size="s" color="bg" weight={700}>
           - Sobre Nós
         </TextRegular>

@@ -15,6 +15,8 @@ export const ContainerMission = styled.section`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    padding: 1.5rem;
+
     div {
       padding: 0;
       flex-wrap: wrap;

@@ -9,8 +9,6 @@ export const GlobalStyled = createGlobalStyle`
   outline: 0;   
   font-family: "Montserrat", serif;
   text-decoration: none;
-
-  transition-property: opacity, transform !important;
 }
 
 html {

@@ -17,8 +17,8 @@ export const Footer = () => {
       <ContainerLogo>
         <ImageLogo src={Logo} alt="Logo" />
         <TextRegular color="text" weight={500} size="s">
-          Petro Tools Oil Offshore/Tornocampos <br /> © 2024 - Todos os
-          direitos reservados.
+          Petro Tools Offshore/Tornocampos <br /> © 2024 - Todos os direitos
+          reservados.
         </TextRegular>
 
         <BoxIcon
@@ -67,9 +67,8 @@ export const Footer = () => {
           </TextRegular>
           <TextRegular>
             <strong>Endereço:</strong>{' '}
-            <a href="https://maps.app.goo.gl/FvcfEvQVrKsUwKV28" target="_blank">
-              Av. Pres. Kennedy, 996/1000 - Vila da Rainha, <br /> Campos dos
-              Goytacazes - RJ, 28020-010
+            <a href="https://maps.app.goo.gl/F4aPL8uJtYqtwJHk9" target="_blank">
+              Rua da lapa Nº 50 Pq. Aeroporto, <br /> Macaé RJ - Cep 27963-103
             </a>
           </TextRegular>
         </ContentLink>

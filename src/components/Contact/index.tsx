@@ -182,11 +182,11 @@ export const ContactSection = () => {
             <TextRegular size="sm">
               {' '}
               <a
-                href="https://maps.app.goo.gl/FvcfEvQVrKsUwKV28"
+                href="https://maps.app.goo.gl/F4aPL8uJtYqtwJHk9"
                 target="_blank"
               >
-                Av. Pres. Kennedy, 996/1000 - Vila da Rainha, <br /> Campos dos
-                Goytacazes - RJ, 28020-010
+                Rua da lapa Nº 50 Parque Aeroporto, <br /> Macaé RJ - Cep
+                27963-103
               </a>
             </TextRegular>
           </div>

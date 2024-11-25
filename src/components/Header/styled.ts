@@ -67,7 +67,7 @@ export const NavLink = styled.a<HeaderProps>`
 `
 
 export const ImgLogo = styled.img`
-  width: 10.2rem;
+  width: 12rem;
   z-index: 999;
 `
 

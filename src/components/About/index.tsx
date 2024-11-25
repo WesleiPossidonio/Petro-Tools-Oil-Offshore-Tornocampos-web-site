@@ -33,8 +33,8 @@ export const About = () => {
 
         <ContentText>
           <TextRegular size="s" id="text-about">
-            A <strong>Petro Tools Oil Offshore/Tornocampos</strong>, é uma
-            empresa fundada em 2003, que atua no mercado nacional no ramo de{' '}
+            A <strong>Petro Tools Offshore/Tornocampos</strong>, é uma empresa
+            fundada em 2003, que atua no mercado nacional no ramo de{' '}
             <strong>
               {' '}
               Usinagem e Caldeiraria com sua matriz em Campos/RJ e filial em

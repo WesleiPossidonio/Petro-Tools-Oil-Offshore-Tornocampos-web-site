@@ -29,7 +29,7 @@ export const Hero = () => {
         className="mySwiper"
       >
         <ContentSwiper>
-          <ImgBanner src={imgBanner} alt="" />
+          <ImgBanner src={imgBannerTwo} alt="" />
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
             <TitleText color="white" size="xl">
@@ -52,7 +52,7 @@ export const Hero = () => {
         </ContentSwiper>
 
         <ContentSwiper>
-          <ImgBanner src={imgBannerTwo} alt="" />
+          <ImgBanner src={imgBanner} alt="" />
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
             <TitleText color="white" size="xl">

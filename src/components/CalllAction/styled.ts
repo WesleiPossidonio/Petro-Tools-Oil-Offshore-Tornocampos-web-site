@@ -16,6 +16,20 @@ export const ContainerCallAction = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
 `
 
 export const ContentText = styled.div`

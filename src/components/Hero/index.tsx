@@ -1,6 +1,6 @@
 //Images
-import imgBannerTwo from '../../assets/ImgBanner.jpg'
-import imgBannerThree from '../../assets/ImgThree.jpg'
+import imgBanner from '../../assets/ImgBanner.jpg'
+import imgBannerTwo from '../../assets/ImgTwo.jpg'
 
 //Components
 import { ContainerMain, ContentSwiper, ContentText, ImgBanner } from './styled'
@@ -29,7 +29,7 @@ export const Hero = () => {
         className="mySwiper"
       >
         <ContentSwiper>
-          <ImgBanner src={imgBannerTwo} alt="" />
+          <ImgBanner src={imgBanner} alt="" />
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
             <TitleText color="white" size="xl">
@@ -52,7 +52,7 @@ export const Hero = () => {
         </ContentSwiper>
 
         <ContentSwiper>
-          <ImgBanner src={imgBannerThree} alt="" />
+          <ImgBanner src={imgBannerTwo} alt="" />
 
           <ContentText data-aos="fade-right" data-aos-duration="1000">
             <TitleText color="white" size="xl">

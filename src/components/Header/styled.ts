@@ -67,8 +67,12 @@ export const NavLink = styled.a<HeaderProps>`
 `
 
 export const ImgLogo = styled.img`
-  width: 12rem;
+  width: 15rem;
   z-index: 999;
+
+  @media (max-width: 768px) {
+    width: 14rem;
+  }
 `
 
 interface NavMobileProps {

@@ -36,29 +36,15 @@ export const SectionImage = () => {
       </ContentText>
 
       <ContentImages>
+        <Image src={ImgOne} alt="" data-aos="zoom-in" data-aos-duration="600" />
+        <Image src={ImgTwo} alt="" data-aos="zoom-in" data-aos-duration="600" />
         <Image
-          src={ImgOne}
-          loading="lazy"
-          alt=""
-          data-aos="zoom-in"
-          data-aos-duration="600"
-        />
-        <Image
-          src={ImgTwo}
-          loading="lazy"
-          alt=""
-          data-aos="zoom-in"
-          data-aos-duration="600"
-        />
-        <Image
-          loading="lazy"
           src={ImgThree}
           alt=""
           data-aos="zoom-in"
           data-aos-duration="600"
         />
         <Image
-          loading="lazy"
           src={ImgFour}
           alt=""
           data-aos="zoom-in"
@@ -66,7 +52,6 @@ export const SectionImage = () => {
         />
         <Image
           src={ImgFive}
-          loading="lazy"
           alt=""
           data-aos="zoom-in"
           data-aos-duration="600"
@@ -74,14 +59,12 @@ export const SectionImage = () => {
         <Image src={ImgSix} alt="" data-aos="zoom-in" data-aos-duration="600" />
         <Image
           src={ImgSeven}
-          loading="lazy"
           alt=""
           data-aos="zoom-in"
           data-aos-duration="600"
         />
         <Image
           src={Imgeight}
-          loading="lazy"
           alt=""
           data-aos="zoom-in"
           data-aos-duration="600"

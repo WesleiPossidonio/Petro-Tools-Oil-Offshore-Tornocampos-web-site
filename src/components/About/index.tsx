@@ -72,7 +72,7 @@ export const About = () => {
       </ContainerText>
 
       <ContainerImage data-aos="fade-left" data-aos-duration="600">
-        <Image src={ImageAbout} loading="lazy" alt="" />
+        <Image src={ImageAbout} />
 
         <ContainerOurValues>
           <TitleText size="xl" color="text">

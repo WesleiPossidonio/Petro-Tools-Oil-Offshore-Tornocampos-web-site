@@ -4,7 +4,7 @@ import { SwiperSlide } from 'swiper/react'
 export const ContainerSertvices = styled.section`
   width: 100%;
   max-width: 100rem;
-  height: max-content;
+  height: auto;
 
   display: flex;
   flex-direction: column;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerMission = styled.section`
   width: 100%;
-  height: max-content;
+  height: auto;
 
   padding: 2.5rem 3.5rem;
 

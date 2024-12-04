@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ContainerSectionImage = styled.section`
   width: 100%;
   max-width: 100rem;
-  height: max-content;
+  height: auto;
 
   display: flex;
   flex-direction: column;

@@ -4,7 +4,7 @@ export const ContainerContact = styled.section`
   width: 100%;
   max-width: 100rem;
   height: 40rem;
-  min-height: max-content;
+  min-height: auto;
 
   display: flex;
   align-items: center;

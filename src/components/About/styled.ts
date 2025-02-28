@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const ContainerAbout = styled.section`
   width: 100%;
   max-width: 100rem;
-  height: 38rem;
-  min-height: auto;
+  height: auto;
+  min-height: 38rem;
 
   display: flex;
   align-items: center;

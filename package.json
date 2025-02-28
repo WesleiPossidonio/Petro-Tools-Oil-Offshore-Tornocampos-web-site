@@ -25,6 +25,7 @@
     "react-toastify": "^10.0.6",
     "styled-components": "^6.1.13",
     "swiper": "^11.1.14",
+    "vite-plugin-sitemap": "^0.7.1",
     "yarn": "^1.22.22",
     "zod": "^3.23.8"
   },

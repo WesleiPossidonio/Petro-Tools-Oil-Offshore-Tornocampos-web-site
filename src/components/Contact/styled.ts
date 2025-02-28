@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const ContainerContact = styled.section`
   width: 100%;
   max-width: 100rem;
-  height: 40rem;
-  min-height: auto;
+  height: auto;
+  min-height: 40rem;
 
   display: flex;
   align-items: center;
@@ -70,9 +70,9 @@ export const TextArea = styled.textarea<TextAreaProps>`
   padding: 0.5rem;
   border: 2px solid
     ${({ theme, error }) =>
-      error !== undefined
-        ? theme.colors['base-red']
-        : theme.colors['base-white']};
+    error !== undefined
+      ? theme.colors['base-red']
+      : theme.colors['base-white']};
   border-radius: 8px;
 
   font-size: 0.8835125rem;

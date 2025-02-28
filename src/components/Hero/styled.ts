@@ -4,7 +4,7 @@ import { SwiperSlide } from 'swiper/react'
 export const ContainerMain = styled.section`
   width: 100%;
   height: auto;
-  min-height: 100dvh;
+  min-height: 100svh;
 
   .mySwiper {
     width: 100%;
